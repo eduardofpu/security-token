@@ -26,7 +26,7 @@ DELET http://localhost:8080/v1/admin/estudents/1
 
 ```
 #### Criar usuário para authenticar na api
-
+```
 USUARIO: ADMIN
 username: toyo
 password:devdojo
@@ -72,7 +72,7 @@ POST http://localhost:8080/v1/admin/estudents
 
 ```
 
-``
+
 
 #### Listar os estudents
 ```
