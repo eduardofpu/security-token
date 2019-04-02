@@ -1,6 +1,5 @@
 package com.security.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -20,7 +19,6 @@ public class Usuario extends AbstractEntity {
     private String username;
 
     @NotEmpty
-    @JsonIgnore
     private String password;
 
     @NotEmpty
